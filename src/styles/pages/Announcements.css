@@ -1,0 +1,30 @@
+/* Announcements Page Styles (Student & Teacher) */
+.announcements-page {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.announcements-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.announcements-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.announcements-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.announcements-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

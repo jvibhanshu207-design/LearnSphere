@@ -1,0 +1,65 @@
+/* StatCard Component Styles */
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1 1 200px;
+}
+
+.stat-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--border-radius-md);
+  flex-shrink: 0;
+}
+
+.stat-card-icon--primary {
+  background-color: var(--lime-hover);
+  color: var(--navy-dark);
+}
+
+.stat-card-icon--success {
+  background-color: #d1fae5;
+  color: var(--status-completed);
+}
+
+.stat-card-icon--info {
+  background-color: #dbeafe;
+  color: var(--status-progress);
+}
+
+.stat-card-icon--warning {
+  background-color: #fef3c7;
+  color: var(--status-upcoming);
+}
+
+.stat-card-icon--danger {
+  background-color: #fee2e2;
+  color: var(--status-overdue);
+}
+
+.stat-card-icon--default {
+  background-color: #f1f5f9;
+  color: var(--text-primary);
+}
+
+.stat-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-card-value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.stat-card-label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
