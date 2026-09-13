@@ -1,34 +1,17 @@
-import React, { useState } from "react";
-import { initialAnnouncements } from "../../data/announcements";
-import { Plus } from "lucide-react";
-import Button from "../../components/Button";
-import AnnouncementCard from "../../components/AnnouncementCard";
-import "../../styles/pages/Announcements.css";
+const Announcements = () => {
+    return (
+        <div className="under-construction">
+            <div className="construction-icon">🚧</div>
 
-export const Announcements = () => {
-  const [announcements] = useState(initialAnnouncements);
+            <h1>Announcements</h1>
 
-  return (
-    <div className="announcements-page">
-      <div className="announcements-header">
-        <div>
-          <h2 className="announcements-title">Instructor Announcements</h2>
-          <p className="announcements-desc">
-            Publish alerts and milestones updates to enrolled students.
-          </p>
+            <h2>Under Construction</h2>
+
+            <p>
+                We're working on this section. It will be available soon!
+            </p>
         </div>
-        <Button onClick={() => alert("Simulated: Create announcement form.")} variant="primary" style={{ gap: "6px" }}>
-          <Plus size={18} /> New Announcement
-        </Button>
-      </div>
-
-      <div className="announcements-list">
-        {announcements.map((ann) => (
-          <AnnouncementCard key={ann.id} announcement={ann} />
-        ))}
-      </div>
-    </div>
-  );
+    );
 };
 
 export default Announcements;
