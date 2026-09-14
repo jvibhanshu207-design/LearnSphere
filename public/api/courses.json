@@ -1,0 +1,50 @@
+[
+  {
+    "id": "java-prog",
+    "title": "Java Programming",
+    "instructor": "Rahul Sharma",
+    "category": "Programming",
+    "lessons": 12,
+    "rating": 4.8,
+    "progress": 75,
+    "remainingTime": "8h 45min",
+    "studentsCount": 1420,
+    "description": "Learn Java programming from scratch, covering basic syntax, Object-Oriented Programming (OOP) concepts, exception handling, and multithreading."
+  },
+  {
+    "id": "react-dev",
+    "title": "React Development",
+    "instructor": "Amit Kumar",
+    "category": "Web Development",
+    "lessons": 15,
+    "rating": 4.9,
+    "progress": 55,
+    "remainingTime": "12h 20min",
+    "studentsCount": 2350,
+    "description": "Master React.js including Hooks, State Management, Context API, React Router, and building highly performant single page applications."
+  },
+  {
+    "id": "python-fund",
+    "title": "Python Fundamentals",
+    "instructor": "Siddharth Verma",
+    "category": "Programming",
+    "lessons": 18,
+    "rating": 4.7,
+    "progress": 65,
+    "remainingTime": "6h 15min",
+    "studentsCount": 1890,
+    "description": "Start coding with Python. Cover variables, loops, lists, dictionaries, custom functions, and basic object-oriented programming with Python."
+  },
+  {
+    "id": "web-dev",
+    "title": "Web Development Bootcamp",
+    "instructor": "Amit Kumar",
+    "category": "Web Development",
+    "lessons": 22,
+    "rating": 4.6,
+    "progress": 30,
+    "remainingTime": "18h 10min",
+    "studentsCount": 3100,
+    "description": "The complete guide to modern web development: HTML5, CSS3, Flexbox, Grid, Responsive Design, and modern Vanilla JavaScript."
+  }
+]
