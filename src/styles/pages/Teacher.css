@@ -1,0 +1,66 @@
+/* Teacher Pages Styles */
+.teacher-page {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.teacher-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.teacher-page-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.teacher-page-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.teacher-courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+/* Create Course Form */
+.create-course-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.create-course-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.create-course-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Students Table */
+.students-table-progress-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.students-table-progress-bar {
+  flex-grow: 1;
+}
+
+.students-table-progress-pct {
+  font-weight: 700;
+  font-size: 0.85rem;
+  width: 32px;
+}

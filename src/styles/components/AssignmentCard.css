@@ -1,0 +1,54 @@
+/* AssignmentCard Component Styles */
+.assignment-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.assignment-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.assignment-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-grow: 1;
+}
+
+.assignment-card-course {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.assignment-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.assignment-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.assignment-card-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.assignment-card-action {
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.assignment-card-btn {
+  width: 100%;
+}

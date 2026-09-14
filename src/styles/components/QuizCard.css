@@ -1,0 +1,40 @@
+/* QuizCard Component Styles */
+.quiz-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.quiz-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.quiz-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.quiz-card-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.quiz-card-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.quiz-card-action {
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.quiz-card-btn {
+  width: 100%;
+}

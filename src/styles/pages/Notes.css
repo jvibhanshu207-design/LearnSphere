@@ -1,0 +1,117 @@
+/* Notes Page Styles (Student & Teacher) */
+.notes-page {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.notes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.notes-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.notes-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.notes-filter-card {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 16px 24px;
+}
+
+.notes-select-wrap {
+  width: 100%;
+  max-width: 200px;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.note-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.note-card-top {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.note-card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--border-radius-md);
+  background-color: #ecfdf5;
+  color: var(--status-completed);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.note-card-badge {
+  background-color: #f1f5f9;
+  color: var(--text-secondary);
+  font-size: 0.65rem;
+  padding: 2px 8px;
+}
+
+.note-card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.note-card-body {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+.note-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.note-card-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.note-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.note-modal-footer {
+  border-top: 1px solid var(--border-light);
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
